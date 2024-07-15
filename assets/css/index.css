@@ -7,8 +7,9 @@ body {
 }
 
 header {
+    margin-top: 0.938vh;
     display: flex;
-    justify-content: space-around;
+    gap: 117px;
 }
 .icon-agg {
     display: flex;
@@ -18,10 +19,20 @@ header {
     a{
         text-decoration: none;
         color: black;
-        padding-left: 0.5vw;
+        padding-left: 0.521vw;
     }
 }
+.logo {
+    margin-top: 20px;
+}
+.perfil {
+    padding: 10px;
+}
+.perfil img{
+    padding-left: 1vw;
+}
 main {
+    margin-top: 1.302vh;
     text-align: center;
 }
 

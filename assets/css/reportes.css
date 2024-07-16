@@ -11,6 +11,7 @@ header {
     margin-top: 0.938vh;
     display: flex;
     justify-content: space-around;
+    height: 6vh;
 }
 .icon-agg {
     display: flex;
@@ -26,12 +27,10 @@ header {
         padding-left: 0.521vw;
     }
 }
-.report{
-    opacity: 1%;
-}
 .logo {
-    margin-top: 20px;
+    margin-top: 10px;
 }
+
 .perfil {
     position: relative;
     padding: 10px;
@@ -63,7 +62,9 @@ header {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+.popup p {
+    text-align: center;
+}
 .popup a {
     display: flex;
     padding: 10px;
@@ -79,26 +80,28 @@ header {
 .popup a:hover {
     background-color: rgb(214, 123, 12);
 }
-
-.contenedor{
+section {
     width: 50vw;
     height: auto;
     background-color: darkgrey;
+    display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     border-radius: 25px;
     margin-left: 25vw;
     margin-top: 5vh;
+
 }
 
-.cuadro{
-    grid-template-columns: auto auto;
-    grid-template-rows: repeat(7,auto);
+.cuadro {
+    grid-template-columns: 15.625vw 15.625vw;
+    grid-template-rows: repeat(7, auto);
     display: grid;
-    gap: 10px;
+    column-gap: 150px;
     text-align: center;
 }
-h1{
+
+h1 {
     text-align: center;
     font-size: 45px;
     grid-row: 1;
@@ -110,71 +113,97 @@ input {
     height: 10vh;
     border-radius: 20px;
     border: 1px solid #ccc;
+    text-align: start;
 }
-.uno{
+
+.input1 {
+    height: 5vh;
+}
+
+.uno {
     grid-row: 2;
     grid-column: 1;
     font-size: 20px;
 }
-.dos{
+
+.dos {
     grid-row: 2;
     grid-column: 2;
     font-size: 20px;
 }
-.tres{
+
+.tres {
     grid-row: 3;
     grid-column: 1;
     font-size: 20px;
 }
-.cuatro{
+
+.cuatro {
     grid-row: 3;
     grid-column: 2;
     font-size: 20px;
 }
-.cuatro{
-    grid-template-rows: auto auto auto;
-    grid-template-columns: repeat(3, auto);
+
+.tres-cuadros {
+    grid-template-rows: auto auto ;
+    width: 15vw;
+    height: 10vh;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    grid-template-columns: repeat(3, 33%);
     display: grid;
+    background-color: #fff;
+    column-gap: 10px;
+    align-items: center;
 }
-.cuatro p{
+
+.cuatro p {
     grid-row: 1;
-    grid-column: 1 / span 2;
+    grid-column: 1 /  2;
 }
-.content-cuatr1{
+
+.content-cuatr1 {
     background-color: dimgrey;
-    width: 5vw;
+    margin-left: 1.5vw;
+    width: 60px;
     height: 5vh;
     border-radius: 20px;
-    grid-row: 3;
+    grid-row: 1;
     grid-column: 1;
 }
-.content-cuatr2{
+
+.content-cuatr2 {
     background-color: dimgrey;
-    width: 5vw;
+    
+    width: 60px;
     height: 5vh;
     border-radius: 20px;
-    grid-row: 3;
+    grid-row: 1;
     grid-column: 2;
 }
-.content-cuatr3{
+
+.content-cuatr3 {
     background-color: dimgrey;
-    width: 5vw;
+    width: 60px;
     height: 5vh;
     border-radius: 20px;
-    grid-row: 3;
+    grid-row: 1;
     grid-column: 3;
 }
-.cinco{
+
+.cinco {
     grid-row: 4;
     grid-column: 1;
     font-size: 20px;
 }
-.seis{
+
+.seis {
     grid-row: 4;
     grid-column: 2;
     font-size: 20px;
 }
-button{
+
+button {
     background-color: #ff7221;
     border-radius: 20px;
     font-size: 30px;
@@ -183,7 +212,8 @@ button{
     color: white;
     border: none;
 }
-.siete{
+
+.siete {
     grid-row: 5;
     grid-column: 1 / span 2;
 }

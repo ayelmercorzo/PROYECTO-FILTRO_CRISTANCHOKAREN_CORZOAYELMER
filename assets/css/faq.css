@@ -1,0 +1,142 @@
+header {
+    margin-top: 0.938vh;
+    display: flex;
+    justify-content: space-around;
+    height: 6vh;
+    overflow: hidden;
+}
+.icon-agg {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    img {
+        width: 30px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+        padding-left: 0.521vw;
+    }
+}
+.logo {
+    margin-top: 10px;
+}
+.añadir{
+    opacity: 1%;
+}
+.perfil {
+    position: relative;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.perfil img {
+    padding-left: 1vw;
+    cursor: pointer;
+}
+
+.perfil img:focus + .popup,
+.popup a:focus {
+    display: block;
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.popup p {
+    text-align: center;
+}
+.popup a {
+    display: flex;
+    padding: 10px;
+    background-color: #ff7221;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; 
+    text-decoration: none; 
+}
+
+.popup a:hover {
+    background-color: rgb(214, 123, 12);
+}
+
+h1{
+    text-align: center;
+    font-size: 64px;
+    color: rgba(49, 36, 29,0.8);
+    margin-bottom: 0;
+}
+section {
+    width: 1210px;
+    margin: 0 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.question1,.question2,.question3,.question4,.question5,.question6 {
+    background-color: #ff7221;
+    width: 100%;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 1vh;
+    border-radius: 16px;
+    align-items: center;
+    h4{
+        font-style: italic;
+        font-size: 32px;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+}
+
+.question1 {
+    h4 {
+        margin-left: 2vw;
+        margin-bottom: 0;
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    p{
+        margin-left: 2.2vw;
+        grid-column: 1;
+        grid-row: 2;
+        color: rgba(255, 255, 255,0.9);
+    }
+
+    img{
+        grid-column: 2;
+        grid-row: 1;
+        align-self:center;
+        justify-self: center;
+        margin-right: 2vw;
+    }
+}
+.question2,.question3,.question4,.question5,.question6{
+    img{
+        align-self:center;
+        justify-self: center;
+        margin-right: 2vw;
+    }
+    h4 {
+        margin-left: 2vw;
+    }
+    justify-content: space-between;
+}

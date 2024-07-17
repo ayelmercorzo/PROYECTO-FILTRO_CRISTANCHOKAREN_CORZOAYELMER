@@ -1,0 +1,131 @@
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin-top: 0.938vh;
+    display: flex;
+    justify-content: space-around;
+    height: 6vh;
+}
+
+.icon-agg {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.icon-agg img {
+    width: 30px;
+}
+
+.icon-agg a {
+    text-decoration: none;
+    color: black;
+    padding-left: 0.521vw;
+}
+
+.logo {
+    margin-top: 5px;
+}
+
+.perfil {
+    position: relative;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.perfil img {
+    padding-left: 1vw;
+    cursor: pointer;
+}
+
+.perfil img:focus + .popup,
+.popup a:focus {
+    display: block;
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    left: 50%;
+    width: 200px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.popup a {
+    display: flex;
+    padding: 10px;
+    background-color: #ff7221;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; 
+    text-decoration: none; 
+}
+
+.popup a:hover {
+    background-color: rgb(214, 123, 12);
+}
+
+main {
+    margin-top: 6vh;
+    text-align: center;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 82px; 
+}
+.circle-number img{
+    width: 40px;
+    height: 40px;
+}
+.table {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100% 5%;
+    column-gap: 25px;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    margin: 10px 0;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+
+.cell {
+    flex: 1;
+    text-align: center;
+}
+
+
+.delete img {
+    width: 40px;
+    height: 40px;
+
+}

@@ -154,8 +154,10 @@ input {
     display: grid;
     background-color: #fff;
     column-gap: 5px;
-    align-items: center;
-    font-size: 70px;
+    align-content: center;
+    justify-items: center;
+    font-size: 3.438rem;
+    color: #000000;
 }
 
 .cuatro p {
@@ -163,32 +165,23 @@ input {
     grid-column: 1 /  2;
 }
 
-.content-cuatr1 {
+.content-cuatr1,.content-cuatr2,.content-cuatr3 {
     background-color: dimgrey;
-    margin-left: 1vw;
-    width: 60px;
+    width: 3.125vw;
     height: auto;
     border-radius: 20px;
     grid-row: 1;
     grid-column: 1;
 }
-
+.content-cuatr1 {
+    grid-row: 1;
+    grid-column: 1;
+}
 .content-cuatr2 {
-    background-color: dimgrey;
-    margin-left: 1vw;
-    width: 60px;
-    height: auto;
-    border-radius: 20px;
     grid-row: 1;
     grid-column: 2;
 }
-
 .content-cuatr3 {
-    background-color: dimgrey;
-    margin-left: 1vw;
-    width: 60px;
-    height: auto;
-    border-radius: 20px;
     grid-row: 1;
     grid-column: 3;
 }

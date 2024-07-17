@@ -54,18 +54,23 @@ header {
 .popup {
     display: none;
     position: absolute;
-    left: 50%;
-    width: 200px;
+    top: 80%;
+    left: -70%;
+    width: 16.198vw;
+    height: 13.438vh;
     padding: 10px;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+.popup p {
+    text-align: center;
+}
 .popup a {
     display: flex;
     padding: 10px;
+    align-content: center;
     background-color: #ff7221;
     color: #fff;
     border: none;
@@ -92,8 +97,8 @@ main {
     margin: 0 82px; 
 }
 .circle-number img{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 .table {
     width: 100%;
@@ -106,10 +111,11 @@ main {
 .row-header {
     display: flex;
     justify-content: space-between;
-    padding: 10px 5px;
-    margin: 10px 0;
+    padding: 5px 5px;
+    margin-top: 10px;
     border-radius: 15px;
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: 800;
     width: 100%;
 }
 
@@ -121,7 +127,7 @@ main {
     margin: 10px 0;
     border: 1px solid #707070;
     border-radius: 15px;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 
@@ -139,13 +145,15 @@ main {
 
 .add-button {
     display: block;
-    width: 200px;
+    width: 17.5vw;
+    height: 3.646vw;
     margin: 20px auto;
     padding: 10px;
+    font-size: 1.302vw;
     background-color: #ff7221;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
 }
 

@@ -125,7 +125,13 @@ main {
 
 
 .delete img {
-    width: 40px;
-    height: 40px;
+    width: 1vw;
+    height: 3vh;
+}
 
+button{
+    width: 2vw;
+    height: auto;
+    background-color: transparent;
+    border: none;
 }

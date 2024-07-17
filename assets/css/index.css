@@ -46,8 +46,8 @@ header {
     cursor: pointer;
 }
 
-.perfil img:focus + .popup,
-.popup a:focus {
+.perfil img:target + .popup,
+.popup a:target {
     display: block;
 }
 
@@ -56,8 +56,8 @@ header {
     position: absolute;
     top: 80%;
     left: -70%;
-    width: 16.198vw;
-    height: 13.438vh;
+    width: 311px;
+    height: 258px;
     padding: 10px;
     background-color: #fff;
     border: 1px solid #ccc;

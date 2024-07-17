@@ -12,23 +12,27 @@ header {
     justify-content: space-around;
     height: 6vh;
 }
+
 .icon-agg {
     display: flex;
     align-items: center;
     justify-items: center;
-    img {
-        width: 30px;
-    }
-    
-    a{
-        text-decoration: none;
-        color: black;
-        padding-left: 0.521vw;
-    }
 }
+
+.icon-agg img {
+    width: 30px;
+}
+
+.icon-agg a {
+    text-decoration: none;
+    color: black;
+    padding-left: 0.521vw;
+}
+
 .logo {
-    margin-top: 10px;
+    margin-top: 5px;
 }
+
 .perfil {
     position: relative;
     padding: 10px;
@@ -50,9 +54,7 @@ header {
 .popup {
     display: none;
     position: absolute;
-    top: calc(100% + 10px);
     left: 50%;
-    transform: translateX(-50%);
     width: 200px;
     padding: 10px;
     background-color: #fff;
@@ -76,11 +78,11 @@ header {
 .popup a:hover {
     background-color: rgb(214, 123, 12);
 }
+
 main {
     margin-top: 1.302vh;
     text-align: center;
 }
-
 
 .section1 {
     display: flex;
@@ -92,32 +94,33 @@ main {
 
 .table {
     width: 100%;
-    border-collapse: collapse;
 }
 
-.row {
+.row-header, .row {
     display: flex;
     justify-content: space-between;
+    padding: 10px 5px;
+    margin: 10px 0;
     border: 1px solid #707070;
     border-radius: 15px;
-    padding: 10px 5px;
-    margin: 10px 5px;
+    font-size: 12px;
 }
-.estado {
-    opacity: 0;
-}
+
 .row-header {
-    display: flex;
-    
     background-color: #f9f9f9;
-    font-weight: bold;
-    width: 100%;
-    justify-content: space-between;
 }
-.text-table {
+
+.cell {
     flex: 1;
     text-align: center;
 }
+
+
+.estado img {
+    width: 20px;
+    height: 20px;
+}
+
 .add-button {
     display: block;
     width: 200px;
@@ -131,10 +134,5 @@ main {
 }
 
 .add-button:hover {
-    background-color: rgb(214, 123, 12)
-}
-
-.cell img {
-    width: 20px;
-    height: 20px;
+    background-color: rgb(214, 123, 12);
 }

@@ -38,30 +38,35 @@ header {
     cursor: pointer;
 }
 
-.perfil img:focus + .popup,
-.popup a:focus {
-    display: block;
-}
-
 .popup {
-    display: none;
+    background-color: #707070;
     position: absolute;
-    top: calc(100% + 10px);
-    left: 50%;
-    transform: translateX(-50%);
-    width: 200px;
+    top: 84%;
+    left: -84%;
+    display: none;
+    width: 250px;
     padding: 10px;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.popup:target {
+    display: block;
+}
+
+
 .popup p {
     text-align: center;
+}
+.popup p span {
+    font-weight: bold;
 }
 .popup a {
     display: flex;
     padding: 10px;
+    align-content: center;
     background-color: #ff7221;
     color: #fff;
     border: none;

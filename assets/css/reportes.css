@@ -153,8 +153,9 @@ input {
     grid-template-columns: repeat(3, 33%);
     display: grid;
     background-color: #fff;
-    column-gap: 10px;
+    column-gap: 5px;
     align-items: center;
+    font-size: 70px;
 }
 
 .cuatro p {
@@ -164,9 +165,9 @@ input {
 
 .content-cuatr1 {
     background-color: dimgrey;
-    margin-left: 1.5vw;
+    margin-left: 1vw;
     width: 60px;
-    height: 5vh;
+    height: auto;
     border-radius: 20px;
     grid-row: 1;
     grid-column: 1;
@@ -174,9 +175,9 @@ input {
 
 .content-cuatr2 {
     background-color: dimgrey;
-    
+    margin-left: 1vw;
     width: 60px;
-    height: 5vh;
+    height: auto;
     border-radius: 20px;
     grid-row: 1;
     grid-column: 2;
@@ -184,8 +185,9 @@ input {
 
 .content-cuatr3 {
     background-color: dimgrey;
+    margin-left: 1vw;
     width: 60px;
-    height: 5vh;
+    height: auto;
     border-radius: 20px;
     grid-row: 1;
     grid-column: 3;
@@ -208,9 +210,11 @@ button {
     border-radius: 20px;
     font-size: 30px;
     width: 15vw;
-    height: 6vh;
+    height: auto;
     color: white;
     border: none;
+    margin-top: 5vh;
+    margin-bottom: 5%;
 }
 
 .siete {

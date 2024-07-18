@@ -127,7 +127,7 @@ h2{
 @media (max-width: 480px) {
     .cuadro {
         width: auto;
-        margin-top: 25vh;
+        margin-top: 5vh;
     }
 
     h2 {

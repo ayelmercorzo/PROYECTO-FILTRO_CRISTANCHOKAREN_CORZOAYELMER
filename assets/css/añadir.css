@@ -1,33 +1,46 @@
-body{
+@font-face {
+    font-family: 'inter';
+    src: url(../fonts/Inter/static/Inter-Regular.ttf);
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
+    font-family: 'inter';
+
 }
+
 header {
     margin-top: 0.938vh;
     display: flex;
     justify-content: space-around;
     height: 6vh;
 }
+
 .icon-agg {
     display: flex;
     align-items: center;
     justify-items: center;
-    img {
-        width: 30px;
-    }
-    
-    a{
-        text-decoration: none;
-        color: black;
-        padding-left: 0.521vw;
-    }
 }
+
+.icon-agg img {
+    width: 30px;
+}
+
+.icon-agg a {
+    text-decoration: none;
+    color: black;
+    padding-left: 0.521vw;
+}
+
 .logo {
-    margin-top: 10px;
+    margin-top: 5px;
 }
-.añadir{
-    opacity: 1%;
-}
+
 .perfil {
     position: relative;
     padding: 10px;
@@ -68,8 +81,8 @@ header {
 }
 .popup a {
     display: flex;
-    justify-content: center;
     padding: 10px;
+    align-content: center;
     background-color: #ff7221;
     color: #fff;
     border: none;
@@ -77,13 +90,11 @@ header {
     cursor: pointer;
     text-align: center; 
     text-decoration: none; 
-    margin-top: 5px;
 }
 
 .popup a:hover {
-    background-color: #b15119;
+    background-color: rgb(214, 123, 12);
 }
-
 hr {
     margin: 0;
 }
@@ -150,19 +161,24 @@ label input{
         margin: 0;
         padding-top: 15px;
     }
+
     header .icon-agg {
-        a{
+        a {
             font-size: 1rem;
             text-align: left;
         }
+
         img {
             width: 20px;
+            display: none;
+        }
     }
-}
-.popup{
-    top: 84%;
-    left: -60%;
-}
+    
+
+    .popup {
+        top: 84%;
+        left: -60%;
+    }
     
     section{
         display: flex;

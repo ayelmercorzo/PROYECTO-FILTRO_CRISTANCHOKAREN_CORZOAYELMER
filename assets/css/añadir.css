@@ -81,6 +81,7 @@ header {
 
 h1 {
     text-align: center;
+    margin-bottom: 0;
 }
 section{
     display: flex;
@@ -91,20 +92,29 @@ section{
     
 }
 .datos{
+    margin-top: 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-    
+    column-gap: 2.604vw;
+    row-gap: 2.083vw;
+    font-weight: 800;
+    margin: 0;
+}
+
+.input-añadir {
+    margin: 0;
 }
 label input{
-    width: 247px;
-    height: 81px;
+    width: 12.865vw;
+    height: 4.219vw;
     border-radius: 25px;
     border: none;
     background-color: rgba(255, 98, 0,0.3);
+    box-shadow: 0 0 10px black;
+    margin-top: 0vh;
 }
 .button {
-    margin-top: 6vh;
+    margin-top: 4vh;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -114,10 +124,10 @@ label input{
         color: #fff;
         justify-content: center;
         align-content: center;
-        width: 580px;
-        height: 94px;
+        width: 30.208vw;
+        height: 4.896vw;
         border-radius: 25px;
         border: none;
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 }

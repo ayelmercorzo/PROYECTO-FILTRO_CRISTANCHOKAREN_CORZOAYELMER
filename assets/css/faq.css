@@ -150,5 +150,27 @@ section {
     h4 {
         margin-left: 2vw;
     }
-    justify-content: space-between;
+}
+
+@media (max-width:768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fdb185;
+        height: auto;
+        margin: 0;
+    }
+    header .icon-agg {
+        a{
+            font-size: 1.4rem;
+            text-align: left;
+        }
+        img {
+            width: 20px;
+    }
+    }
+    h1{
+        font-size: 2em;
+    }
 }

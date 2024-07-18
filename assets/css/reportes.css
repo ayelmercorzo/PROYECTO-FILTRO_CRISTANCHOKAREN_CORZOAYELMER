@@ -86,15 +86,13 @@ header {
     background-color: rgb(214, 123, 12);
 }
 section {
-    width: 50vw;
     height: auto;
     background-color: darkgrey;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     border-radius: 25px;
-    margin-left: 25vw;
-    margin-top: 5vh;
+    margin: 5vw 20vw; 
 
 }
 
@@ -218,4 +216,58 @@ button {
 .siete {
     grid-row: 5;
     grid-column: 1 / span 2;
+}
+
+@media (max-width:768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fdb185;
+        height: auto;
+        margin: 0;
+    }
+    header .icon-agg {
+        a{
+            font-size: 1.4rem;
+            text-align: left;
+        }
+        img {
+            width: 20px;
+    }
+    }
+    h1{
+        font-size: 1.2em;
+    }
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column; 
+    }
+
+    input{
+        height: auto;
+        width: auto;
+        font-size: 0.70em;
+    }
+
+    .cuadro{
+        flex-direction: column;
+        align-items: center;
+        display: block;
+    }
+    .tres-cuadros{
+        margin: 5vw 20vw;
+        height: auto;
+        width: auto;
+        font-size: 1em;
+        justify-content: center;
+    }
+
+    button {
+        height: auto;
+        width: auto;
+    }
+
 }

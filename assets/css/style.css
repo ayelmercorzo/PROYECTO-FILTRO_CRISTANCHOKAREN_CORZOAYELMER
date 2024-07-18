@@ -79,7 +79,8 @@ body {
     width: 80px;
     height: auto;
     margin-top: 2vh;
-    margin-left: 18vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p {
@@ -124,20 +125,21 @@ input {
     margin-top: 0.01vh;
 }
 
-button {
+button.submit {
     background-color: rgba(255, 94, 0, 0.795);
     color: white;
     border: none;
     border-radius: 20px;
     font-size: 1rem;
-    transition: background-color 0.3s ease;
     width: 15vw;
-    height: 5vh;
+    height: 5vh; 
     margin-top: 1rem;
-    margin-left: 12vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
-button:hover {
+button.submit:hover {
     background-color: rgba(255, 94, 0, 0.9);
 }
 
@@ -147,5 +149,20 @@ button:hover {
     margin-top: 2vh;
     p{
         letter-spacing: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    button.submit {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 769px) {
+    button.submit {
+        width: 15vw;
+        margin-left: 12vw;
     }
 }

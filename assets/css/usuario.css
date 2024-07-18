@@ -108,30 +108,30 @@ h2{
 
 @media (max-width: 768px) {
     .cuadro {
-        width: 80vw; /* Adjust width for smaller screens */
-        margin-top: 20vh; /* Adjust top margin */
+        width: 80vw;
+        margin-top: 20vh;
     }
 
     h2 {
-        font-size: 1.2em; /* Adjust font size */
+        font-size: 1.2em;
     }
 
     .final img {
-        width: 100px; /* Adjust image size */
+        width: 100px;
     }
 }
 
 @media (max-width: 480px) {
     .cuadro {
-        width: 90vw; /* Further adjust width for very small screens */
-        margin-top: 15vh; /* Further adjust top margin */
+        width: 90vw;
+        margin-top: 15vh;
     }
 
     h2 {
-        font-size: 1em; /* Further adjust font size */
+        font-size: 1em;
     }
 
     .final img {
-        width: 80px; /* Further adjust image size */
+        width: 80px;
     }
 }

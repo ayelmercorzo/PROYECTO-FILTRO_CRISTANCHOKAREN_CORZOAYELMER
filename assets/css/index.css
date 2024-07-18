@@ -222,4 +222,10 @@ main {
         width: 2vw;
         height: auto;
     }
+
+    .add-button{
+        font-size: 0.60rem;
+        height: auto;
+        width: auto;
+    }
 }

@@ -140,7 +140,7 @@ label input{
     }
 }
 
-@media (max-width:375px) {
+@media (max-width:768px) {
     header {
         display: flex;
         flex-direction: column;
@@ -167,6 +167,9 @@ label input{
     section{
         display: flex;
         flex-direction: column;
+    }
+    h1{
+        font-size: 0.90em;
     }
     .datos{
         display: flex;

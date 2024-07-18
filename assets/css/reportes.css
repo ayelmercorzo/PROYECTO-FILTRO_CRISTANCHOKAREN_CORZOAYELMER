@@ -74,6 +74,7 @@ header {
 
 
 .popup p {
+    font-size: 0.75rem;
     text-align: center;
 }
 .popup p span {
@@ -82,14 +83,15 @@ header {
 .popup a {
     display: flex;
     padding: 10px;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
     background-color: #ff7221;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    text-align: center; 
     text-decoration: none; 
+    margin-top: 0.5vh;
 }
 
 .popup a:hover {

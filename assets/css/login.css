@@ -1,9 +1,13 @@
+@font-face {
+    font-family: 'inter';
+    src: url(../fonts/Inter/static/Inter-Regular.ttf);
+}
 body {
     background-image: url(../img/pexels-pixabay-159400.png);
     background-repeat: no-repeat;
     background-color: black;
     background-size: cover;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'inter';
     height: 100vh;
     margin: 0;
     overflow: hidden;
@@ -155,8 +159,7 @@ button.submit:hover {
 @media (max-width: 768px) {
     button.submit {
         width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+        
     }
 }
 

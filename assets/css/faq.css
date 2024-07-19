@@ -156,7 +156,7 @@ section {
 .question2,.question3,.question4,.question5,.question6{
     img{
         align-self:center;
-        justify-self: center;
+        justify-self: flex-end;
         margin-right: 2vw;
     }
     h4 {

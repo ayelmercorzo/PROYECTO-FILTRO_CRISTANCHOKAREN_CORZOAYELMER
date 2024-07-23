@@ -113,26 +113,23 @@ main {
     width: 80vw; 
     margin: auto;
 }
-.circle-number img{
-    width: 50px;
-    height: 50px;
+.cell-circle-number img{
+    width: 40px;
+    height: 40px;
 }
 .table {
     width: 100%;
-    height: 100%;
     display: grid;
     grid-template-columns: 100% 5%;
-    column-gap: 3vw;
+    column-gap: 15px;
     align-items: center;
 }
 
 .row-header {
     display: flex;
     justify-content: space-between;
-    padding: 5px 5px;
-    margin-top: 10px;
     border-radius: 15px;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 800;
     width: 100%;
 }
@@ -141,11 +138,11 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.521vw 0.26vw;
-    margin: 0.521vw 0;
+    padding: 10px 5px;
+    margin: 10px 0;
     border: 1px solid #707070;
-    border-radius: 15px;
-    font-size: 1.125rem;
+    border-radius: 10px;
+    font-size: 15px;
 }
 
 

@@ -121,10 +121,10 @@ main {
 .table {
     width: 100%;
     display: grid;
-    grid-template-columns: 100% 5%;
-    column-gap: 25px;
+    grid-template-columns: 90% 5%;
+    column-gap: 15px;
     align-items: center;
-    margin-top: 5vh;
+    justify-content: center;
 }
 
 
@@ -147,8 +147,8 @@ main {
 
 
 .delete img {
-    width: 3vw;
-    height: 3vh;
+    width: auto;
+    height: auto;
 }
 
 button {

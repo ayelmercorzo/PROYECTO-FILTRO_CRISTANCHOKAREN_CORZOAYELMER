@@ -102,7 +102,7 @@ hr {
 }
 section {
     height: auto;
-    background-color: darkgrey;
+    background-color: #ff7221;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,7 +184,7 @@ input {
 }
 
 .content-cuatr1,.content-cuatr2,.content-cuatr3 {
-    background-color: dimgrey;
+    background-color: #ff7221d3;
     width: 3.125vw;
     height: auto;
     border-radius: 20px;

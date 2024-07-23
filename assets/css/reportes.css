@@ -184,7 +184,7 @@ input {
 }
 
 .content-cuatr1,.content-cuatr2,.content-cuatr3 {
-    background-color: #ff7221d3;
+    background-color: #af521c;
     width: 3.125vw;
     height: auto;
     border-radius: 20px;
@@ -217,7 +217,7 @@ input {
 }
 
 button {
-    background-color: #ff7221;
+    background-color: #af521c;
     border-radius: 20px;
     font-size: 30px;
     width: 15vw;
